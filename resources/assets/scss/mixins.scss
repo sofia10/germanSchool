@@ -1,0 +1,55 @@
+//example
+@mixin box-shadow() {
+	-webkit-box-shadow: 0 0 22px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 22px 0 rgba(0,0,0,.2);
+}
+@mixin lightbox-shadow() {
+	-webkit-box-shadow: 0 0 22px 0 rgba(0,0,0,.24);
+    box-shadow: 0 0 22px 0 rgba(0,0,0,.4);
+}
+@mixin h3(){
+	font-size: 24px;
+	color: #333333;
+	font-weight: bold;
+	position: relative;
+	&:after{
+		content:"";
+		background-image: url(../images/rectangle.png);
+		width: 179px;
+	    height: 1px;
+	    left: 0;
+	    bottom: -10px;
+	    position: absolute;
+	}
+}
+@mixin h4(){
+	color: #424242;
+	font-size: 26px;
+}
+@mixin h5(){
+	color: #000;
+	font-size: 14px;
+	&:hover{
+		color: red;
+		text-decoration: none;
+	}
+}
+@mixin h6(){
+	font-size: 12px;
+    color: #9b9b9b;
+}
+@mixin p(){
+	font-size: 12px;
+	line-height: 1.5;
+	color: #333333;
+}
+@mixin transition-height(){
+	-webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+}
+@mixin transition(){
+	transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}

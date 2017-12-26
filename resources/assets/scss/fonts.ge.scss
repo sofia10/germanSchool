@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'BPG WEB 001 Caps';
+    src: url('../fonts/BPGWEB001Caps.woff2') format('woff2'),
+        url('../fonts/BPGWEB001Caps.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BPG WEB 001';
+    src: url('../fonts/BPGWEB001.woff2') format('woff2'),
+        url('../fonts/BPGWEB001.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$webfontCaps: 'BPG WEB 001 Caps';
+$webfont: 'BPG WEB 001';

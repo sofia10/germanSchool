@@ -1,0 +1,217 @@
+@import "fonts.ge.scss";
+
+p{
+	font-family: $webfont;
+}
+h3,
+h4{
+	font-family: $webfontCaps;
+}
+h6{
+	font-family: $webfont;
+}
+.down-header{
+	ul.row{
+		li{
+			a{
+				font-family: $webfontCaps;
+			}
+		}
+	}
+}
+.up-header{
+	ul.row{
+		li{
+			a{
+				font-family: $webfontCaps;
+			}
+		}
+		li.header-info{
+			div.row{
+				img{
+				}
+				.call{
+					span{
+						font-family: $webfont;
+					}
+				}
+			}
+		}
+	}
+}
+.news{
+	.col-md-3{
+		h5{
+			font-family: $webfontCaps;
+		}
+	}
+	.head{
+		a{
+			font-family: $webfont;
+		}
+	}
+}
+.row{
+	.col-2{
+		ul{
+			li{
+				font-family: $webfontCaps;
+			}
+		}
+	}
+	.col-10{
+		a{
+			font-family: $webfontCaps;
+		}
+	}
+}
+.abs{
+	font-family: $webfontCaps;
+}
+
+.sub-footer{
+	.col-md-8{
+		span{
+			font-family: $webfontCaps;
+		}
+	}
+}
+.joinUs{
+	span{
+		font-family: $webfontCaps;
+	}
+}
+.nav-container{
+	a{
+		font-family: $webfontCaps;
+	}
+}
+.school-title{
+	.col-md-3{
+		span{
+			font-family: $webfont;
+		}
+	}
+}
+.menu{
+	ul{
+		li{
+			a{
+				font-family: $webfont;
+			}
+		}
+		li.menu-title{
+			a{
+				font-family: $webfontCaps;
+			}
+		}
+	}
+}
+.teacher-item{
+	span{
+		font-family: $webfontCaps;
+	}
+	a.sponsor{
+		font-family: $webfont;
+	}
+	.col-md-10{
+		span.squad-name{
+			font-family: $webfontCaps;
+		}
+		span.date{
+			font-family: $webfont;
+		}
+	}
+	.col-md-2{
+		a{
+			font-family: $webfontCaps;
+		}
+	}
+}
+.registration{
+	span{
+		font-family: $webfontCaps;
+	}
+
+}
+.squad-name{
+	font-family: $webfontCaps;
+}
+label,
+input[type=submit]{
+	font-family: $webfontCaps;
+}
+input{
+	font-family: $webfont;
+}
+.eat-item{
+	span{
+		font-family: $webfont;
+	}
+	.eat-file{
+		a{
+			font-family: $webfontCaps;
+		}
+	}
+}
+.pay{
+	ul{
+		li{
+			font-family: $webfont;
+		}
+		li.pay-title{
+			font-family: $webfontCaps;
+		}
+	}
+}
+.links{
+	span{
+		font-family: $webfontCaps;
+	}
+	a{
+		font-family: $webfont;
+	}
+	a.link-download{
+		font-family: $webfontCaps;
+	}
+}
+.calendar-cont{
+	span{
+		font-family: $webfontCaps;
+	}
+	.cal-item{
+		.date{
+			ul{
+				li{
+					font-family: $webfontCaps;
+				}
+			}
+		}
+		.cal-info{
+			a{
+				font-family: $webfontCaps;
+			}
+		}
+	}
+}
+a.seemore{
+	font-family: $webfont;
+}
+.school-rules{
+	.rule-item{
+		span{
+			font-family: $webfontCaps;
+		}
+		a{
+			font-family: $webfontCaps;
+		}
+	}
+}
+.text{
+	span{
+		font-family: $webfont;
+	}
+	a.link-download{
+		font-family: $webfontCaps;
+	}
+}
